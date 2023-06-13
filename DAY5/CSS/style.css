@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(162, 18, 222);
+}
+.heading{
+    background-color: #cc4a23;
+    /* width: 40%; */
+    height: 100px;
+    /* margin: 100px 300px 30px 50px;  */
+    /* top right bottom left */
+    margin: 100px 200px; 
+    /* vertical horizontal */
+    /* margin: 30px; */
+    /* 30px every side */
+    /* margin-left: 30px; */
+    padding-left: 30%;
+}
+.para{
+    background-color: rgba(34, 172, 34, 0.4);
+    /* rgba mai a opacity hai */
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/* Dimensions */
+.Box{
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+    font-size: 2em;
+    text-align: center;
+    /* 1em=16px */
+}
+img{
+    width: 150px;
+    height: 150px;
+    border: 10px solid red;
+    /* width style color */
+    border-radius: 50%;
+}
+/* Display and position */
+h3{
+    display: inline;
+}
+span{
+    display: inline-block;
+    width: 80px;
+}
+div{
+    /* display: inline-block;
+    border-radius: 40%; */
+    width: 100px;
+    height: 100px;
+}
+.BBox1{
+    background-color: red;
+    position: relative;
+}
+.BBox2{
+    background-color: green;
+    /* position: fixed; */
+    position: absolute;
+    /* margin-block-end: -50px; */
+}
+.BBox3{
+    background-color: blue;
+    position: relative;
+    /* position: fixed; */
+    bottom: -300px;
+    left: 50px;
+    margin-block-start: 50px;
+}
