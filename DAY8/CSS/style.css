@@ -55,9 +55,11 @@ body{
 }
 .menuItems{
     flex-grow:2;
+    padding-left: 23%;
 }
 .menuItem{
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .banner{
