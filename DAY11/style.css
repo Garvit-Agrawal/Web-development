@@ -1,0 +1,39 @@
+.name{
+    height: 100px;
+    background-color: orange;
+    font-size: 80px;
+    padding-left: 10px;
+}
+.services{
+    height: 50px;
+    font-size: 40px;
+    padding-left: 10px;
+    background-color: aquamarine;
+}
+.detail{
+    display: flex;
+    height: 500px;
+    border: 10px solid red;
+}
+.left{
+    width: 80%;
+}
+.right
+{
+    width: 20%;
+    background-color: aqua;
+}
+.first{
+    font-size: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.second{
+    font-size: 30px;
+    padding-left: 10px;
+}
+li{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
